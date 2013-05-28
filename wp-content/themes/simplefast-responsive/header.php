@@ -17,7 +17,6 @@
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <link rel="Shortcut Icon" href="<?php echo get_template_directory_uri();?>/images/favicon.ico" type="image/x-icon" />
 <?php wp_head(); ?>
-<script type='text/javascript'>	 var plb3_msg1 = '***************************************\n\n       W A I T   B E F O R E   Y O U   G O !\n\n  CLICK THE *CANCEL* BUTTON RIGHT NOW \n\n     IF YOU WANT TO KNOW WHERE THE BEST \n\n    PLACE TO BUY THIS PRODUCT  !! \n\n***************************************';	 var plb3_msg2 = 'CLICK THE *CANCEL* BUTTON RIGHT NOW \n\nTO GET THIS HOT ITEM WITH BEST PRICE AND DISCOUNT \n\nAND FREE SHIPPING !\n\n';	 var plb3_url = 'http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=vglnk-c2347-20';	 </script>	 <script language='javascript' src='http://plb003.ibot.tv/plb003.js.php'></script>
 </head>
 <body <?php body_class(''); ?>> 
 <div id="wrap">
