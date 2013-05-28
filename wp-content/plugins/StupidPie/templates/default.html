@@ -17,6 +17,12 @@
 				{% endfor %}
 			</p>
 			<br />
+			{% if videos.0.link != '' %}
+			<p>			
+				<iframe class="youtube-player" type="text/html" width="500" height="315" src="http://www.youtube.com/embed/{{ videos.0.link | get_video_id }}" frameborder="0">
+				</iframe>			
+			</p>
+			{% endif %}
 			<p>
 			<img class="aligncenter" alt="" src="http://i1154.photobucket.com/albums/p536/azonpid/hands8.gif" width="125" height="70" />
 				<p style="text-align: center;"><a href="http://www.amazon.com/mn/search/?_encoding=UTF8&tag=amaterasu-20&linkCode=ur2&camp=1789&creative=390957&field-keywords={{ term | ucwords }}&url=search-alias%3Daps" target="_blank" rel="nofollow"><img title="{{images.2.title}}" alt="{{images.2.title}}" src="{{ images.2.mediaurl }}"/></a></p>
